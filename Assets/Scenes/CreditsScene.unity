@@ -638,12 +638,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Um jogo criado por Li\xE9dson Paiva  |  Game Design Li\xE9dson Paiva 
-    |  Programa\xE7\xE3o Li\xE9dson Paiva\r\n\r\nLevel Design Li\xE9dson Paiva  | 
-    \xC1udio e Dire\xE7\xE3o Criativa Li\xE9dson Paiva  |  Desenvolvido com Unity
-    6\r\n\r\nGitHub: github.com/liedsonpaiva  |  LinkedIn: linkedin.com/in/liedson-p-aa8093236
-    | Instagram: instagram.com/liedson_paiva \n\n   Lan\xE7amento 19 de Fevereiro
-    de 2026  \nObrigado por jogar!\r\n"
+  m_Text: "A game created by Li\xE9dson Paiva  |  Game Design: Li\xE9dson Paiva 
+    |  Programming: Li\xE9dson Paiva\r\n\r\nLevel Design: Li\xE9dson Paiva  |  Audio
+    & Creative Direction: Li\xE9dson Paiva  |  Developed with Unity 6\r\n\r\nGitHub:
+    github.com/liedsonpaiva  |  LinkedIn: linkedin.com/in/liedson-p-aa8093236  | 
+    Instagram: instagram.com/liedson_paiva\n\nRelease: February 19, 2026\r\nThank
+    you for playing!\r\n"
 --- !u!222 &507549658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -738,7 +738,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Voltar para o Menu
+  m_Text: 'Return to menu '
 --- !u!222 &679418103
 CanvasRenderer:
   m_ObjectHideFlags: 0

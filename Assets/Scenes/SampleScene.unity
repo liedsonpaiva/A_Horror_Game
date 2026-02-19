@@ -831,7 +831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &410087040
 Light:
   m_ObjectHideFlags: 0
@@ -1379,7 +1379,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA encontrou uma lanterna"
+  m_Text: You found a old lantern
 --- !u!222 &458770607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3639,6 +3639,7 @@ MonoBehaviour:
   walkSpeed: 3
   chaseSpeed: 4.5
   sightDistance: 30
+  spottedSound: {fileID: 0}
   idleSound: {fileID: 8300000, guid: be2afaf4d72bccc43bc8c23768a78978, type: 3}
   walkingSound: {fileID: 0}
   chasingSound: {fileID: 8300000, guid: 14ba1465b94f97242abee9521cae3db2, type: 3}
@@ -3849,7 +3850,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Sa\xEDda"
+  m_Text: Exit
 --- !u!222 &837502726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4906,7 +4907,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O ba\xFA est\xE1 vazio"
+  m_Text: The chest is empty
 --- !u!222 &1031100623
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5229,7 +5230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O ba\xFA est\xE1 vazio"
+  m_Text: The chest is empty
 --- !u!222 &1091636578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5324,7 +5325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A porta est\xE1 trancada"
+  m_Text: The door is locked
 --- !u!222 &1105217788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5586,7 +5587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA encontrou uma chave"
+  m_Text: You found a key
 --- !u!222 &1124284388
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5859,7 +5860,7 @@ Light:
   serializedVersion: 12
   m_Type: 2
   m_Color: {r: 0.9339623, g: 0.57846665, b: 0.039649326, a: 1}
-  m_Intensity: 70
+  m_Intensity: 5
   m_Range: 100
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8215,7 +8216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1170869935415368859, guid: 19ea60034f0cd554882092e7f5abc4d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9022,7 +9023,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O ba\xFA est\xE1 vazio"
+  m_Text: The chest is empty
 --- !u!222 &2015182787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9939,7 +9940,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA encontrou uma arma"
+  m_Text: You found a gun, with 12 bullets
 --- !u!222 &2057872302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10314,7 +10315,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O ba\xFA est\xE1 vazio"
+  m_Text: The chest is empty
 --- !u!222 &2120931725
 CanvasRenderer:
   m_ObjectHideFlags: 0
