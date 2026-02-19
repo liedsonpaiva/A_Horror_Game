@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 public class MenuStuff : MonoBehaviour
 {
     public string nextSceneName; // Name of the next scene to load
+
     public void B_LoadScene()
     {
         SceneManager.LoadScene(nextSceneName);
     }
 
+    public void B_LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
 
     public void B_QuitGame()
     {

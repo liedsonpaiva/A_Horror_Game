@@ -9,7 +9,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
-
+    public void B_LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
 
     public void B_QuitGame()
     {

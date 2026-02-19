@@ -8,10 +8,12 @@ public class EnemyController : MonoBehaviour
     public float walkSpeed = 2f; // Walking speed.
     public float chaseSpeed = 4f; // Chasing speed.
     public float sightDistance = 10f;
+    public AudioClip spottedSound; // som Ki Ki Ki Ma Ma Ma
     public AudioClip idleSound;
     public AudioClip walkingSound;
     public AudioClip chasingSound;
 
+    private bool hasPlayedSpottedSound = false;
     private int currentWaypointIndex = 0;
     private NavMeshAgent agent;
     private Animator animator;
@@ -94,8 +96,19 @@ public class EnemyController : MonoBehaviour
         {
             if (hit.collider.CompareTag("Player"))
             {
-                currentState = EnemyState.Chase;
-                Debug.Log("Player detected!");
+                if (currentState != EnemyState.Chase)
+                {
+                    currentState = EnemyState.Chase;
+
+                    if (!hasPlayedSpottedSound)
+                    {
+                        audioSource.PlayOneShot(spottedSound);
+                        hasPlayedSpottedSound = true;
+                    }
+
+                    Debug.Log("Player detected!");
+                }
+
             }
         }
     }
@@ -120,6 +133,7 @@ public class EnemyController : MonoBehaviour
         agent.SetDestination(waypoints[currentWaypointIndex].position);
         currentState = EnemyState.Walk;
         agent.speed = walkSpeed; // Set the walking speed.
+        hasPlayedSpottedSound = false; 
         animator.enabled = true;
     }
 
